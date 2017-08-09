@@ -17,8 +17,8 @@ $(function(){
  	if( $(".owl-carousel").length > 0 ) {
 
 		$(".owl-carousel").owlCarousel({
-
 			 margin:25,
+			 animateOut: 'fadeOut',
 			 stagePadding: 25,
 	   		 nav:true,
 	   		 navText: [
