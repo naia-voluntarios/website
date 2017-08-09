@@ -72,18 +72,18 @@ if(isset($_POST['email']))
     'X-Mailer: PHP/' . phpversion();
     if (@mail($email_to, $email_subject, $email_message, $headers))
     {
-        echo json_encode(array('success'=>1, 'message'=>'Form submitted successfully.')); 
+        echo json_encode(array('success'=>1, 'message'=>'Mensagem enviada com sucesso !.')); 
     }
 
     else 
     {
-        echo json_encode(array('success'=>0, 'message'=>'An error occured. Please try again later.')); 
+        echo json_encode(array('success'=>0, 'message'=>'Ocorreu um erro, por favor tente mais tarde.')); 
         die();        
     }
 }
 else
 {
-    echo 'Please fill in all required fields.';
+    echo 'por favor, preencha todos os campos.';
     die();
 }
 ?>
