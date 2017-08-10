@@ -3,9 +3,9 @@
 /* =====================================================
  * change this to the email you want the form to send to
  * ===================================================== */
-$email_to = "you@company.pw"; 
-$email_from = "webmaster@company.pw"; // must be different than $email_from 
-$email_subject = "Contact Form submitted";
+$email_to = "victorss.42@hotmail.com"; 
+$email_from = "teste@teste.com"; // must be different than $email_from 
+$email_subject = "teste";
 
 if(isset($_POST['email']))
 {
@@ -36,14 +36,14 @@ if(isset($_POST['email']))
     $name_exp = "/^[a-z0-9 .\-]+$/i";
     if (!preg_match($name_exp,$name))
     {
-        $this_error = 'Please enter a valid name.';
+        $this_error = 'Por favor, preencher nome valido.';
         $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
     }        
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
     if (!preg_match($email_exp,$email))
     {
-        $this_error = 'Please enter a valid email address.';
+        $this_error = 'Por favor, preencher e-mail valido.';
         $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
     } 
 
@@ -72,7 +72,7 @@ if(isset($_POST['email']))
     'X-Mailer: PHP/' . phpversion();
     if (@mail($email_to, $email_subject, $email_message, $headers))
     {
-        echo json_encode(array('success'=>1, 'message'=>'Mensagem enviada com sucesso !.')); 
+        echo json_encode(array('success'=>1, 'message'=>'Mensagem enviada com sucesso !'));
     }
 
     else 
