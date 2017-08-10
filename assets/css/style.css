@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 a {
@@ -328,7 +328,7 @@ a:hover, a:focus, a:active {
 ================================= */
 .footer-top {
   background: #003c77;
-  height: 40px;
+  height: 25px;
 }
 
 .main-footer {
@@ -1116,7 +1116,7 @@ form .alert {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Dosis' sans-serif;
   text-align: center;
   vertical-align: center;
 }
@@ -1152,15 +1152,15 @@ form .alert {
   margin-bottom: 20px;
 }
 #meet-us h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
   text-align:center;
-  font-weight: 900;
+  font-weight: 400;
   
 }
 
 #programas h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
   text-align:center;
   font-weight: 700;
