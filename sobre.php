@@ -6,9 +6,7 @@ include "banner.php";
 new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assistencial Irmão Alfredo'); 
  
  new Banner("Sobre Nós");
-
 ?>
-	
 
 	<div class="main-container">
 
@@ -24,27 +22,48 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 
 				<div class="col-md-6">
 
-					<h2 class="title-style-2">ABOUT SADAKA <span class="title-under"></span></h2>
+					<h2 class="title-style-2">O Naia <span class="title-under"></span></h2>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nulla quae possimus id fugit totam perspiciatis ad consequatur natus dolores unde ipsa, architecto, dignissimos corrupti explicabo provident debitis suscipit, beatae!
+						Entidade filantrópica que a mais de 33 anos, assiste, educa e prepara para a vida pessoal e profissional crianças, adolescentes e jovens com e sem deficiência, em situação de risco pessoal e social e suas famílias, nas regiões do Brooklin. Em 1994, adotou o “paradigma da inclusão”.
+
+
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
+						 O NAIA foi fundado em 25 de março de 1982, através de um grupo de voluntários, na favela do Jardim Edite. A princípio não recebia qualquer apoio ou subvenção oficial, contando apenas com ajuda de particulares e promoções beneficentes. 
+
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit.
+						Decidiram pela abertura da entidade após constatar a existência de um significativo número de crianças com problemas físicos e/ou mentais, que ficavam trancadas em suas casas sem qualquer atendimento, enquanto seus pais saiam para trabalhar. O objetivo era prestar serviço filantrópico a essas crianças e suas famílias.
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
+						Atualmente (2016) são 270 beneficiados pelos Programas e Projetos socioeducativos: 
+
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit , quia. Explicabo minima error excepturi minus, aperiam illum fugit.
+						Centro para Crianças e Adolescentes (CCA) – contra turno escolar (Atividades socioassistenciais, Culturais, Projetos de Música, Esportes, Capoeira, Artes, Inglês, Informática) 
+					</p>
+					<p>
+					Educação Profissionalizante – Jovem Aprendiz (Inserção no Mercado de Trabalho).
+					</p>
 
+					<h2 class="title-style-2">Filosofia <span class="title-under"></span></h2>
+					<p>
+					O NAIA valoriza a qualidade, orientada para resultados em termos de cultura educacional, buscando desenvolver a conscientização sobre a importância da autoestima, auto valorização, comunicação, solidariedade e espírito comunitário, como componente de projeto de vida. 
+					</p>
+
+					<h2 class="title-style-2">Missão <span class="title-under"></span></h2>
+					<p>
+					“Preparar crianças, adolescentes e jovens por meio de um processo educacional  e  de redes de apoio comunitário, que abranjam a família, para o exercício pleno da cidadania, reduzindo o risco social a que estão expostos, visando a promoção social, geração de trabalho e renda.”
+					</p>
+
+					<h2 class="title-style-2">Visão de Futuro <span class="title-under"></span></h2>
+					<p>
+					“Ser um centro de referência autossustentável do 3º Setor, na preparação sócio-educativa de crianças, adolescentes, jovens e suas famílias, que propicie o desenvolvimento da consciência de justiça social e ação solidária dos elementos que a compõem”.
 					</p>
 					
 				</div>
@@ -149,7 +168,7 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 
 	        <div class="container">
 
-	            <h2 class="title-style-1">Our Team <span class="title-under"></span></h2>
+	            <h2 class="title-style-1">Nosso time <span class="title-under"></span></h2>
 
 	            <div class="row">
 
@@ -165,10 +184,10 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 
 
 
-	                        <h4 class="member-name"><a href="#">Robert C. Numbers</a></h4>
+	                        <h4 class="member-name"><a href="#">Sandra Mara Collallilo</a></h4>
 
 	                        <div class="member-position">
-	                            CO-FOUNDER
+	                            Presidente
 	                        </div>
 
 	                        <div class="btn-holder">
@@ -199,10 +218,10 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 
 
 
-	                        <h4 class="member-name"><a href="#">Marjorie R. Echevarria</a></h4>
+	                        <h4 class="member-name"><a href="#">Silvia Helena Nogueira</a></h4>
 
 	                        <div class="member-position">
-	                            CO-FOUNDER
+	                            Vice-presidente
 	                        </div>
 
 	                        <div class="btn-holder">
@@ -234,10 +253,10 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 
 
 
-	                        <h4 class="member-name"><a href="#">Allison J. Falls</a></h4>
+	                        <h4 class="member-name"><a href="#">Gilberto Zambonini Jr</a></h4>
 
 	                        <div class="member-position">
-	                            CO-FOUNDER
+	                            Diretor Financeiro
 	                        </div>
 
 	                        <div class="btn-holder">
@@ -251,43 +270,6 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
 	                        </div>
 
 	                        
-
-	                    </div> <!-- /.team-member -->
-	                    
-	                </div>
-
-
-	                <div class="col-md-3 col-sm-6">
-
-	                    <div class="team-member">
-
-	                        <div class="thumnail">
-
-	                            <img src="assets/images/team/member-2.jpg" alt="" class="cause-img">
-	                            
-	                        </div>
-
-
-
-	                        <h4 class="member-name"><a href="#">Bryan B. Stevens</a></h4>
-
-	                        <div class="member-position">
-	                            CO-FOUNDER
-	                        </div>
-
-	                        <div class="btn-holder">
-
-	                          <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-	                          
-	                        </div>
-
-	                        
-
-	                    </div> <!-- /.team-member -->
 	                    
 	                </div>
 
