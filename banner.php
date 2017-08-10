@@ -1,0 +1,21 @@
+<?php 
+
+class Banner{
+    function __construct($pageTitle, $pageDescription = ''){
+        echo '<div class="page-heading text-center">
+
+		<div class="container zoomIn animated">
+			
+			<h1 class="page-title">'.$pageTitle.' <span class="title-under"></span></h1>
+			<p class="page-description">
+				'.$pageDescription.'
+			</p>
+			
+		</div>
+
+	</div>';
+    }
+}
+
+
+?>
