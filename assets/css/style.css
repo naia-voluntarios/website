@@ -10,15 +10,15 @@
   Base
 ========================================================================== */
 body {
-  font-family: "Open sans", sans-serif;
-  color: #115c9b;
+  font-family: "Open Sans", sans-serif;
+  color: #003c77;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -56,8 +56,8 @@ a:hover, a:focus, a:active {
 
 .navbar-main {
   margin-bottom: 0;
-  color: #fff;
-  background: #1f76bd;
+  color: #003C77;
+  background: #efcb2e;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -68,7 +68,7 @@ a:hover, a:focus, a:active {
 .navbar-main a.is-active {
   background: none !important;
   color: inherit;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #003C77;
 }
 .navbar-main .submenu {
   position: absolute;
@@ -218,9 +218,10 @@ a:hover, a:focus, a:active {
   position: absolute;
   bottom: 0;
   text-align: center;
-  background: rgba(31, 118, 189, 0.8);
+  background: #efcb2e;
+  opacity: 0.8;
   width: 100%;
-  color: #fff;
+  color: #0003c77;
   text-transform: uppercase;
   height: 125px;
   padding: 25px 0;
@@ -234,10 +235,12 @@ a:hover, a:focus, a:active {
   bottom: 125px;
   width: 100%;
   padding: 25px;
-  color: #fff;
+  color: #0003c77;
   text-align: justify;
-  background: rgba(31, 118, 189, 0.9);
-  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgba(239, 203, 46, 0.9);
+  border-bottom: 2px solid #003c77;
   visibility: hidden;
   opacity: 0;
   -moz-transition: all, 0.5s;
@@ -544,7 +547,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: #1f76bd;
+  background: #003c77;
   height: 1px;
   width: 280px;
 }
@@ -1085,13 +1088,13 @@ form .alert {
 }
 
 #af-01{
-  background-color: #68c668;
+  background-color: #003c77;
   height: 150px;
   transition: background-color .5s ease-out;
 }
 
 #af-01:hover{
-  background-color: #6ee56e;
+  background-color: #12629e;
   transition: background-color 0.5s ease-out;
 }
 
@@ -1165,6 +1168,6 @@ form .alert {
     background-image: url(../images/teste.JPG);
     width: 100%;
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
