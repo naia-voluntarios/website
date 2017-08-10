@@ -327,13 +327,13 @@ a:hover, a:focus, a:active {
 /* footer 
 ================================= */
 .footer-top {
-  background: #115c9b;
+  background: #003c77;
   height: 40px;
 }
 
 .main-footer {
-  background: #1f76bd;
-  color: #fff;
+  background: #efcb2e;
+  color: #003c77;
 }
 .main-footer .footer-main {
   padding: 30px 0;
@@ -371,7 +371,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #003c77;
   padding: 3px;
 }
 
@@ -390,6 +390,7 @@ a:hover, a:focus, a:active {
 .footer-form .btn-submit {
   border-radius: 0;
   background: #115c9b;
+  color: #fff;
   text-transform: uppercase;
   border: 1px solid #fff;
   -moz-transition: all, 0.5s;
@@ -496,7 +497,8 @@ form .alert {
 	Module
 ========================================================================== */
 .btn-primary {
-  background: #115c9b;
+  background: #efcb2e;
+  color: #003c77;
   border: none;
   border-radius: 0;
   padding: 10px 25px;
@@ -507,9 +509,9 @@ form .alert {
   transition: all, 0.3s;
 }
 .btn-primary:hover {
-  background: #fff;
-  color: #1f76bd;
-  border: 1px solid #1f76bd;
+  background: #003c77;
+  color: #fff;
+  /*border: 1px solid #1f76bd;*/
 }
 
 .btn-secondary {
