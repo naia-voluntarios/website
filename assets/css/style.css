@@ -10,8 +10,8 @@
   Base
 ========================================================================== */
 body {
-  font-family: "Open sans", sans-serif;
-  color: #115c9b;
+  font-family: "Open Sans", sans-serif;
+  color: #003c77;
 }
 
 h1,
@@ -56,8 +56,13 @@ a:hover, a:focus, a:active {
 
 .navbar-main {
   margin-bottom: 0;
+<<<<<<< HEAD
   color: #fff;
   background: #006633;
+=======
+  color: #003C77;
+  background: #efcb2e;
+>>>>>>> 297ceb393d751432bfe9cd6787f2c21bf63e0eb8
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -68,7 +73,7 @@ a:hover, a:focus, a:active {
 .navbar-main a.is-active {
   background: none !important;
   color: inherit;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #003C77;
 }
 .navbar-main .submenu {
   position: absolute;
@@ -218,9 +223,10 @@ a:hover, a:focus, a:active {
   position: absolute;
   bottom: 0;
   text-align: center;
-  background: rgba(31, 118, 189, 0.8);
+  background: #efcb2e;
+  opacity: 0.8;
   width: 100%;
-  color: #fff;
+  color: #0003c77;
   text-transform: uppercase;
   height: 125px;
   padding: 25px 0;
@@ -234,10 +240,12 @@ a:hover, a:focus, a:active {
   bottom: 125px;
   width: 100%;
   padding: 25px;
-  color: #fff;
+  color: #0003c77;
   text-align: justify;
-  background: rgba(31, 118, 189, 0.9);
-  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgba(239, 203, 46, 0.9);
+  border-bottom: 2px solid #003c77;
   visibility: hidden;
   opacity: 0;
   -moz-transition: all, 0.5s;
@@ -324,13 +332,13 @@ a:hover, a:focus, a:active {
 /* footer 
 ================================= */
 .footer-top {
-  background: #115c9b;
-  height: 40px;
+  background: #003c77;
+  height: 25px;
 }
 
 .main-footer {
-  background: #1f76bd;
-  color: #fff;
+  background: #efcb2e;
+  color: #003c77;
 }
 .main-footer .footer-main {
   padding: 30px 0;
@@ -368,7 +376,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #003c77;
   padding: 3px;
 }
 
@@ -387,6 +395,7 @@ a:hover, a:focus, a:active {
 .footer-form .btn-submit {
   border-radius: 0;
   background: #115c9b;
+  color: #fff;
   text-transform: uppercase;
   border: 1px solid #fff;
   -moz-transition: all, 0.5s;
@@ -493,7 +502,8 @@ form .alert {
 	Module
 ========================================================================== */
 .btn-primary {
-  background: #115c9b;
+  background: #efcb2e;
+  color: #003c77;
   border: none;
   border-radius: 0;
   padding: 10px 25px;
@@ -504,9 +514,9 @@ form .alert {
   transition: all, 0.3s;
 }
 .btn-primary:hover {
-  background: #fff;
-  color: #1f76bd;
-  border: 1px solid #1f76bd;
+  background: #003c77;
+  color: #fff;
+  /*border: 1px solid #1f76bd;*/
 }
 
 .btn-secondary {
@@ -544,7 +554,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: #1f76bd;
+  background: #003c77;
   height: 1px;
   width: 280px;
 }
@@ -1085,12 +1095,14 @@ form .alert {
 }
 
 #af-01{
-  background-color: #68c668;
-  height: 250px;
+  background-color: #003c77;
+  height: 150px;
+  transition: background-color .5s ease-out;
 }
-#af-02{
-  background-color: #74dd74;
-  height: 250px;
+
+#af-01:hover{
+  background-color: #12629e;
+  transition: background-color 0.5s ease-out;
 }
 
 #af-01 p {
@@ -1100,18 +1112,69 @@ form .alert {
   font-size: 30px;
   text-align: center;
   vertical-align: center;
-  padding-top: 100px;
+  margin-top: -15px;
 }
 
-#af-02 p {
+
+#af-01 h3 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 15px;
+  font-family: 'Dosis' sans-serif;
   text-align: center;
   vertical-align: center;
-  padding-top: 100px;
 }
 
-#af-01 button {
+#af-01 div {
+  margin-top: 5px;
+  text-align:center;
+}
+#af-01 .af-donation {
+  background: url(../images/icons/donation.png) no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  color: #c2c2c2;
+}
+#af-01 .af-hand {
+  background: url(../images/icons/hand.png) no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  color: #c2c2c2;
+}
+#af-01 .af-cause {
+  background: url(../images/icons/cause.png) no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  color: #c2c2c2;
+}
+
+#meet-us {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#meet-us h1 {
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  text-align:center;
+  font-weight: 400;
+  
+}
+
+#programas h2 {
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  text-align:center;
+  font-weight: 700;
+}
+
+#programas .jovem-aprendiz-img {
+    background-image: url(../images/teste.JPG);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
