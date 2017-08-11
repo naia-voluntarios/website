@@ -77,7 +77,7 @@ class Header {
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="sobre.php">SOBRE</a></li>
                             <li><a href="#">DOAR</a></li>
-                            <li><a href="gallery.html">PROJETOS</a></li>
+                            <li><a href="gallery.php">PROJETOS</a></li>
                             <li><a href="gallery.html">CONTATO</a></li>
         
                           </ul>
