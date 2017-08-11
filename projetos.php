@@ -1,106 +1,12 @@
-<!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>Naia | Núcleo Assistencial Irmão Alfredo</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
-        <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<?php 
+include "header.php";
+include "banner.php";
 
-        <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-        <!-- Owl carousel -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-
-        <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
-
-
-    </head>
-
-    <body>
-
-
-    <header class="main-header">
-        
-    
-        <nav class="navbar navbar-static-top">
-
-
-            <div class="navbar-main">
-              
-              <div class="container">
-
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-
-                  </button>
-                  
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
-                  
-                </div>
-
-                <div id="navbar" class="navbar-collapse collapse pull-right">
-
-                  <ul class="nav navbar-nav">
-
-                    <li><a  href="index.html">HOME</a></li>
-                    <li><a href="about.html">Sobre a instituição</a></li>
-                    <li class="has-child"><a href="#">Como ajudar</a>
-
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">Voluntariado</a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Doações </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Bazar </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Outras ajudas</a></li>
-                      </ul>
-
-                    </li>
-                    <li><a class="is-active" href="gallery.html">Galeria</a></li>
-                    <li><a href="contact.html">Contato</a></li>
-
-                  </ul>
-
-                </div> <!-- /#navbar -->
-
-              </div> <!-- /.container -->
-              
-            </div> <!-- /.navbar-main -->
-
-
-        </nav> 
-
-    </header> <!-- /. main-header -->
-
-
-
-	<div class="page-heading text-center">
-
-		<div class="container zoomIn animated">
-			
-			<h1 class="page-title">GALLERY <span class="title-under"></span></h1>
-			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
-			</p>
-			
-		</div>
-
-	</div>
+new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assistencial Irmão Alfredo'); 
+ 
+ new Banner("Projetos");
+?>
 
 	<div class="main-container">
 

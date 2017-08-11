@@ -74,11 +74,11 @@ class Header {
         
                           <ul class="nav navbar-nav">
         
-                            <li><a class="is-active" href="index.php">HOME</a></li>
+                            <li><a href="index.php">HOME</a></li>
                             <li><a href="sobre.php">SOBRE</a></li>
-                            <li><a href="#">DOAR</a></li>
-                            <li><a href="gallery.html">PROJETOS</a></li>
-                            <li><a href="gallery.html">CONTATO</a></li>
+                            <li><a href="doar.php">DOAR</a></li>
+                            <li><a href="projetos.php">PROJETOS</a></li>
+                            <li><a href="contato.php">CONTATO</a></li>
         
                           </ul>
         
