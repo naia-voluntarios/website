@@ -74,7 +74,7 @@ class Header {
         
                           <ul class="nav navbar-nav">
         
-                            <li><a class="is-active" href="index.php">HOME</a></li>
+                            <li><a href="index.php">HOME</a></li>
                             <li><a href="sobre.php">SOBRE</a></li>
                             <li><a href="#">DOAR</a></li>
                             <li><a href="gallery.html">PROJETOS</a></li>
