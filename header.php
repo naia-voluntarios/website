@@ -12,6 +12,7 @@ class Header {
                 <title>'.$title.'</title>
                 <meta name="description" content="'.$description.'">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
+                
                 <!-- Fonts -->
                 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
@@ -25,6 +26,9 @@ class Header {
         
                 <!-- Owl carousel -->
                 <link rel="stylesheet" href="assets/css/owl.carousel.css">
+                
+                <!-- PrettyPhoto -->
+                <link rel="stylesheet" href="assets/css/prettyPhoto.css">
         
                 <!-- Template main Css -->
                 <link rel="stylesheet" href="assets/css/style.css">
@@ -66,7 +70,7 @@ class Header {
         
                           </button>
                           
-                          <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a>
+                          <a class="navbar-brand" href="index.php"><img class="img-responsive" src="assets/images/Logo_site_.png" alt=""></a>
                           
                         </div>
         
@@ -78,6 +82,8 @@ class Header {
                             <li><a href="sobre.php">SOBRE</a></li>
                             <li><a href="doar.php">DOAR</a></li>
                             <li><a href="projetos.php">PROJETOS</a></li>
+                            <li><a href="https://www.atados.com.br/ong/naia" target="_blank">VOLUNTARIOS</a></li>
+                            <li><a href="bazar.php">BAZAR</a></li>
                             <li><a href="contato.php">CONTATO</a></li>
         
                           </ul>

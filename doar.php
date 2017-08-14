@@ -5,259 +5,85 @@ include "banner.php";
 
 new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assistencial Irmão Alfredo'); 
  
- new Banner("Contato");
+ new Banner("Doações");
 ?>
 
-
-
-	<div class="main-container fadeIn animated">
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-7 col-sm-12 col-form">
-
-					<h2 class="title-style-2">CONTACT FORM <span class="title-under"></span></h2>
-
-					<form action="php/mail.php" class="contact-form ajax-form">
-
-						<div class="row">
-
-							<div class="form-group col-md-6">
-	                            <input type="text" name="name" class="form-control" placeholder="Name*" required>
-	                        </div>
-
-	                         <div class="form-group col-md-6">
-	                            <input type="email" name="email" class="form-control" placeholder="E-mail*" required>
-	                        </div>
-							
-						</div>
-
+<section id="intro-doar" style="margin-bottom:50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h2 class="title-style-1">Ajude-nos contribuindo! <span class="title-under"></span></h2>
+                <p>
+                    Além de contribuições de vários setores da sociedade, contamos também com os mantenedores, que nos ajudam fazendo doações regularmente. Você pode fazer parte desse grupo! O valor a ser doado fica a seu critério. 
+                    Após a doação em conta, solicite seu recibo pelo e-mail <a href="mailto:captacao.recursos@naia.org.br">captacao.recursos@naia.org.br</a>.
+                </p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 class="title-style-1">Doação financeira! <span class="title-under"></span></h2>
+                <p> Preencha o formulário abaixo para nos doar via Pagseguro! Qualquer ajuda é Significativa! </p>
+                <form id="signup" class="formee" method="post">
+                    <fieldset>
                         <div class="form-group">
-                            <textarea name="message" rows="5" class="form-control" placeholder="Message*" required></textarea>
+                            <label for="fname">Nome *</label> <input class="form-control" name="fname" id="fname" type="text" required/>
                         </div>
-
-                        <div class="form-group alerts">
-                        
-                        	<div class="alert alert-success" role="alert">
-							  
-							</div>
-
-							<div class="alert alert-danger" role="alert">
-							  
-							</div>
-							
-                        </div>	
-
-                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary pull-right">Send message</button>
+                        <div class="form-group">
+                            <label for="lname">Sobrenome *</label> <input class="form-control" name="lname" id="lname" type="text" required/>
                         </div>
-
-                        <div class="clearfix"></div>
-
-					</form>
-
-				</div>
-
-				<div class="col-md-4 col-md-offset-1 col-contact">
-
-					<h2 class="title-style-2"> SADAKA CONTACTS <span class="title-under"></span></h2>
-					<p>
-						<b>Sadaka</b> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla .
-					</p>
-
-					<div class="contact-items">
-
-						<ul class="list-unstyled contact-items-list">
-							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span> 135 Hay el nahda, Rabat, Morocco</li>
-							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-phone"></i></span> 00 210 25 55  55 11</li>
-
-							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-envelope"></i></span> contact@sadaka.org</li>
-						</ul>
-					</div>
-
-					
-					
-				</div>
-
-			</div> <!-- /.row -->
-
-
-		</div>
-		
-
-
-	</div>
-
-	<div id="contact-map" class="contact-map">
-		
-	</div>
-
-
-    <footer class="main-footer">
-
-        <div class="footer-top">
-            
-        </div>
-
-
-        <div class="footer-main">
-            <div class="container">
-                
-                <div class="row">
-                    <div class="col-md-4">
-
-                        <div class="footer-col">
-
-                            <h4 class="footer-title">About us <span class="title-under"></span></h4>
-
-                            <div class="footer-content">
-                                <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                                </p> 
-
-                                <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                                </p>
-
-                            </div>
-                            
+                        <div class="form-group">
+                            <label for="email">Email *</label> <input class="form-control" name="email" id="email" type="text" required/>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <div class="footer-col">
-
-                            <h4 class="footer-title">LAST TWEETS <span class="title-under"></span></h4>
-
-                            <div class="footer-content">
-                                <ul class="tweets list-unstyled">
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                </ul>
-                            </div>
-                            
+                        <div class="form-group">
+                            <center><input class="btn btn-primary" type="submit" title="Send" value="Doar!" /></center>
                         </div>
-
-                    </div>
-
-
-                    <div class="col-md-4">
-
-                        <div class="footer-col">
-
-                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
-
-                            <div class="footer-content">
-
-                                <div class="footer-form" >
-                                    
-                                    <form action="php/mail.php" class="ajax-form">
-
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                        </div>
-
-                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-                                        </div>
-
-                                        <div class="form-group alerts">
-                        
-                                            <div class="alert alert-success" role="alert">
-                                              
-                                            </div>
-
-                                            <div class="alert alert-danger" role="alert">
-                                              
-                                            </div>
-                                            
-                                        </div>
-
-                                         <div class="form-group">
-                                            <button type="submit" class="btn btn-submit pull-right">Send message</button>
-                                        </div>
-                                        
-                                    </form>
-
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                    <div class="clearfix"></div>
-
-
-
-                </div>
-                
-                
+                    </fieldset>
+                </form>
             </div>
-
-            
+            <div class="col-md-3"></div>
         </div>
-
-        <div class="footer-bottom">
-
-            <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 class="title-style-1"><a href="https://apoia.se/naia" target="_blank">Ajuda Recorrente! </a><span class="title-under"></span></h2>
+                <p> Através do link <a href="https://apoia.se/naia" target="_blank">https://apoia.se/naia! </a> você pode ajudar o naia com uma ajuda recorrente! Ficaremos muito felizes por receber sua ajuda :)</p>
+                <center><a class="btn btn-primary" target="_blank" href="https://apoia.se/naia">Ajude!</a></center>
             </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="bola" class="col-md-6">
+                <h2 class="title-style-1">A Bola está em suas mãos! <span class="title-under"></span></h2>
+                <p> Você e sua organização podem fazer muito mais pelo NAIA! </p>
+                <p> Procuramos organizações que possam agregar a nossa missão, trazendo conteúdo e mostrando um horizonte aos nossos jovens. Procuramos empresas interessadas em patrocinar nossa causa, seja através de atividades socioeducativas ou doações. </p>
+                <p> Caso tenham interesse entre em contato através de  <a href="mailto:diretoria@naia.org.br">diretoria@naia.org.br</a> com o assunto "A Bola em Nossas Mãos! - Nome da sua empresa"</p>
+                <center><a class="btn btn-primary" target="_blank" href="contato.php">Fale conosco</a></center>
+            </div>
+            <div class="col-md-3"></div>
         </div>
         
-    </footer>
-
-
-
-
-       
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 class="title-style-1">Doe para o bazar! <span class="title-under"></span></h2>
+                <p> Você pode doar livros, brinquedos, roupas, móveis, eletrodomésticos, entre outros
+produtos que estejam em condições de uso. </p>
+                
+                <center><a class="btn btn-primary" target="_blank" href="contato.php">Fale conosco</a></center>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
         
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
-
-        <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+    </div>
+</section>
 
 
-        <!-- Google map  -->
-        <script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
+<?php
 
+include 'footer.php';
 
-        <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
-</html>
+?>

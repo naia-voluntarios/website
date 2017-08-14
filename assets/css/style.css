@@ -9,9 +9,23 @@
 /* =============================================================================
   Base
 ========================================================================== */
+.imagem-projetos{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+}
+.imagem-bazar-thumb{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 295px;
+    height: 240px;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #003c77;
+  color: #000;
 }
 
 h1,
@@ -19,6 +33,7 @@ h2,
 h3,
 h4 {
   font-family: "Dosis", sans-serif;
+  color: #003c77;
 }
 
 a {
@@ -56,13 +71,9 @@ a:hover, a:focus, a:active {
 
 .navbar-main {
   margin-bottom: 0;
-<<<<<<< HEAD
-  color: #fff;
-  background: #006633;
-=======
-  color: #003C77;
+  color: #003c77;
   background: #efcb2e;
->>>>>>> 297ceb393d751432bfe9cd6787f2c21bf63e0eb8
+ 
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -73,7 +84,7 @@ a:hover, a:focus, a:active {
 .navbar-main a.is-active {
   background: none !important;
   color: inherit;
-  border-bottom: 2px solid #003C77;
+  border-bottom: 2px solid #003c77;
 }
 .navbar-main .submenu {
   position: absolute;
@@ -112,6 +123,7 @@ a:hover, a:focus, a:active {
   font-size: 18px;
   padding: 20px 15px;
   border-bottom: 2px solid transparent;
+  
 }
 .navbar-main li:hover .submenu {
   top: 62px;
@@ -122,7 +134,7 @@ a:hover, a:focus, a:active {
   transition: all, 0.25s;
 }
 .navbar-main .icon-bar {
-  background: #fff;
+  background: #003c77;
 }
 
 /* Home Slider 
@@ -333,7 +345,7 @@ a:hover, a:focus, a:active {
 ================================= */
 .footer-top {
   background: #003c77;
-  height: 25px;
+  height: 10px;
 }
 
 .main-footer {
@@ -341,7 +353,7 @@ a:hover, a:focus, a:active {
   color: #003c77;
 }
 .main-footer .footer-main {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .main-footer .footer-title {
   text-transform: uppercase;
@@ -426,7 +438,7 @@ a:hover, a:focus, a:active {
 /* Pages 
 ================================= */
 .page-heading {
-  background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
+  background: no-repeat center;
   background-size: cover;
   min-height: 190px;
   color: #fff;
@@ -451,6 +463,8 @@ a:hover, a:focus, a:active {
   padding: 0;
   display: block;
   margin: 0;
+  height:100px;
+  width:100px;
 }
 .gallery-item img {
   width: 100%;
@@ -625,7 +639,7 @@ form .alert {
 
 .nav > li > a:hover, .nav > li > a:focus {
   background: #115c9b;
-  color: #fff;
+  color: #003c77;
 }
 
 /* Accordion
@@ -1177,4 +1191,11 @@ form .alert {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#intro-doar .foto-doar {
+  background: url(../images/naia_doar.jpg) no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 450px;
 }

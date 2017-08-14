@@ -16,8 +16,8 @@
                 <div class="carousel-caption">
 
                   <h2 class="carousel-title bounceInDown animated slow">A bola está em suas mãos</h2>
-                  <h4 class="carousel-subtitle bounceInUp animated slow ">Não deixe-a cair!</h4>
-                  <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">Doe Agora!</a>
+                  <h4 class="carousel-subtitle bounceInUp animated slow " style="color:white;">Não deixe-a cair!</h4>
+                  <a href="doar.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" >Doe Agora!</a>
 
                 </div>
 
@@ -31,7 +31,7 @@
     <section id="af">
         <div class="container-fluid">
             <div class="row">
-                <a href="#">
+                <a href="doar.php">
                 <div class="col col-md-4" id="af-01">
                     <div>
                         <center><div class="af-donation"></div></center>
@@ -41,7 +41,7 @@
                 </div>
                 </a>
                 
-                <a href="#">
+                <a href="https://www.atados.com.br/ong/naia" target="_blank">
                 <div class="col col-md-4" id="af-01">
                     <div class="col-lg-12 align-middle">
                         <center><div class="af-cause"></div></center>
@@ -49,14 +49,14 @@
                         <p>Participe!</p>    
                     </div>
                 </div>
-                                    
                 </a>
-                <a href="#">
+                
+                <a href="projetos.php">
                 <div class="col col-md-4" id="af-01">
                     <div class="col-lg-12 align-middle">
                         <center><div class="af-hand"></div></center>
-                        <h3>Quer ser padrinho?</h3>
-                        <p>Adote agora!</p>    
+                        <h3>Confira oque realizamos !</h3>
+                        <p>Projetos Naia</p>    
                     </div>
                 </div>
                                     
@@ -88,7 +88,7 @@
                     <div class="reasons-col animate-onscroll fadeIn">
 
                         <img src="assets/images/reasons/institucional01.jpg" alt="">
-
+                        
                         <div class="reasons-titles">
 
                             <h3 class="reasons-title">Nós lutamos juntos!</h3>
@@ -161,26 +161,17 @@ geração de trabalho e renda.
 
                         <img src="assets/images/causes/voluntario_thumb.jpg" alt="" class="cause-img">
 
-                        <!--<div class="progress cause-progress">-->
-                        <!--  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">-->
-                        <!--    10$ / 500$-->
-                        <!--  </div>-->
-                        <!--</div>-->
-
-                        <h4 class="cause-title"><a href="#">Voluntáriado </a></h4>
+                        <h4 class="cause-title"><a href="https://www.atados.com.br/ong/naia" target="_blank">Voluntariado </a></h4>
                         <div class="cause-details">
                             Saiba como você pode nos ajudar. Conheça nossos programas de voluntariado por aqui. 
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> Saiba Mais!</a>
-                          
+                        <a href="https://www.atados.com.br/ong/naia" class="btn btn-primary" data-toggle="modal" target="_blank"> Saiba Mais!</a>
                         </div>
 
-                        
-
-                    </div> <!-- /.cause -->
+                    </div>
                     
                 </div> 
 
@@ -190,20 +181,14 @@ geração de trabalho e renda.
 
                         <img src="assets/images/causes/bazar_thumb.jpg" alt="" class="cause-img">
 
-                        <!--<div class="progress cause-progress">-->
-                        <!--  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">-->
-                        <!--    400$ / 700$-->
-                        <!--  </div>-->
-                        <!--</div>-->
-
-                        <h4 class="cause-title"><a href="#">Conheça nosso Bazar</a></h4>
+                        <h4 class="cause-title"><a href="bazar.php">Conheça nosso Bazar</a></h4>
                         <div class="cause-details">
                             Venha conhecer nosso bazar, temos roupas para todos os gostos. Ou Ajude nossa causa doando roupas e objetos que você não utiliza mais.
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> Saiba mais</a>
+                          <a href="bazar.php" class="btn btn-primary"> Saiba mais</a>
                           
                         </div>
 
@@ -220,20 +205,14 @@ geração de trabalho e renda.
 
                         <img src="assets/images/causes/programas.jpg" alt="" class="cause-img">
 
-                        <!--<div class="progress cause-progress">-->
-                        <!--  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">-->
-                        <!--    400$ / 1000$-->
-                        <!--  </div>-->
-                        <!--</div>-->
-
-                        <h4 class="cause-title"><a href="#">Programas</a></h4>
+                        <h4 class="cause-title"><a href="projetos.php">Projetos</a></h4>
                         <div class="cause-details">
-                            Conheça nossos programas e atividades! Colabore com nossa causa! 
+                            Conheça nossos programas, projetos e atividades! Colabore com nossa causa! 
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> Saiba Mais</a>
+                          <a href="projetos.php" class="btn btn-primary"> Saiba Mais</a>
                           
                         </div>
 
@@ -249,20 +228,15 @@ geração de trabalho e renda.
 
                         <img src="assets/images/causes/ajude.jpg" alt="" class="cause-img">
 
-                        <!--<div class="progress cause-progress">-->
-                        <!--  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">-->
-                        <!--    400$ / 700$-->
-                        <!--  </div>-->
-                        <!--</div>-->
-
-                        <h4 class="cause-title"><a href="#">Doe! </a></h4>
+                        <h4 class="cause-title"><a href="doar.php">Doe!</a></h4>
+                        
                         <div class="cause-details">
                             Precisamos de sua ajuda para poder mais! Doe e ajude, contamos com sua contribuição
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> Doe Agora!</a>
+                          <a href="doar.php" class="btn btn-primary"> Doe Agora!</a>
                           
                         </div>
 

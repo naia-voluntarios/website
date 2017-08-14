@@ -8,308 +8,150 @@ new Header("Naia | Núcleo Assistencial Irmão Alfredo",'Conheça o Núcleo Assi
  new Banner("Projetos");
 ?>
 
+
 	<div class="main-container">
 
-		<div class="container gallery fadeIn animated">
+		<div class="container">
 
-			<div class="row">
-				
+			<div class="row fadeIn animated">
 
-					<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+				<div class="col-md-6">
 
-						<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="">
+				<div class="imagem-projetos" style="background-image:url('assets/images/cca.jpg')"></div>
 
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
+				</div>
 
-					</a> <!-- /.gallery-item -->
+				<div class="col-md-6">
 
-					<a href="assets/images/gallery/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+					<h2 class="title-style-2">Centro para Crianças e Adolescentes  <span class="title-under"></span></h2>
 
-						<img src="assets/images/gallery/thumb/children-82272_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+					<p>
+						O Centro para Crianças e Adolescentes é um espaço de referência para o desenvolvimento de ações socioeducativas com crianças e adolescentes, que buscam assegurar o fortalecimento dos vínculos familiares e o convívio grupal, comunitário e social. Programa voltado para Crianças e Adolescentes de 06 a 14 anos e 11 meses. As atividades desenvolvidas são: socioeducativas, culturais, esportivas e recreativas, através de projetos semestralmente planejados.
 
+					</p>
 
-					<a href="assets/images/gallery/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+					<p>
+						O serviço destina-se a: crianças e adolescentes em situação de trabalho; crianças e adolescentes reconduzidas ao convívio familiar, após medida protetiva de acolhimento; crianças e adolescentes com deficiência,beneficiários ou não do BPC; crianças e adolescentes oriundos de famílias beneficiárias de programas de transferência de renda; crianças e adolescentes em situação de vulnerabilidade e risco.
 
-						<img src="assets/images/gallery/thumb/human-rights.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+					</p>
 
-
-					<a href="assets/images/gallery/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/old-books-436498_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/hunger-682834_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/africa-education.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="">
-
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/boy-60729_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/child-207573_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/children-60654_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/doll-87407_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/girl-62328_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
 					
-				
+
+					
+			    </div>
+
+		    </div> <!-- /.row -->
+
+		
+
+	     </div> 
+	     </div>
+
+	<div class="main-container">
+
+			<div class="container">
+
+				<div class="row fadeIn animated">
+
+					<div class="col-md-6">
+
+						<div class="imagem-projetos" style="background-image:url('assets/images/mudas.jpg')"></div>
+
+					</div>
+
+					<div class="col-md-6">
+
+						<h2 class="title-style-2">Mudas de temperos <span class="title-under"></span></h2>
+
+						<p>
+							O Núcleo Assistencial Irmão Alfredo (NAIA) com as crianças envolvidas em diversas atividades produzem caixas com mudas de temperos ideais para consumo e decoração. O objetivo é arrecadação de recursos e desenvolvimento de consciência ecológica, social, trabalho em grupo e arte. 
+						</p>
+
+						
+						
+					</div>
+
+				</div> <!-- /.row -->
+
+
+
+			</div> 
 			</div>
-			
-		</div>
 
 
-	</div> <!-- /.main-container  -->
+	<div class="main-container">
+
+		<div class="container">
+
+			<div class="row fadeIn animated">
+
+				<div class="col-md-6">
+
+				<div class="imagem-projetos" style="background-image:url('assets/images/jovemaprendiz.jpg')"></div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<h2 class="title-style-2">Programa Jovem Aprendiz <span class="title-under"></span></h2>
+
+					<p>
+						Em resposta ao anseio dos jovens que estão em busca de qualificação profissional, visando uma colocação no concorrido mercado de trabalho brasileiro, em março 2009, demos início a um novo projeto socioeducativo – a capacitação de jovens para o mercado de trabalho.
+					</p>
+
+					<p>
+						Voltada a jovens de 14 a 24 anos incompletos, o projeto tem como objetivo trabalhar a formação do cidadão, a formação profissional e o aumento da escolaridade, contribuindo para o desenvolvimento nas diferentes dimensões da vida adulta (profissional, familiar, etc.). 
+					</p>
+
+					
+					
+				</div>
+
+			</div> <!-- /.row -->
 
 
-    <footer class="main-footer">
+			</div>
+		</div> 
 
-        <div class="footer-top">
-            
-        </div>
+	<div class="main-container">
 
+			<div class="container">
 
-        <div class="footer-main">
-            <div class="container">
-                
-                <div class="row">
-                    <div class="col-md-4">
+				<div class="row fadeIn animated">
 
-                        <div class="footer-col">
+					<div class="col-md-6">
+						<div class="imagem-projetos" style="background-image:url('assets/images/educacao.jpg')"></div>
 
-                            <h4 class="footer-title">About us <span class="title-under"></span></h4>
+					</div>
 
-                            <div class="footer-content">
-                                <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                                </p> 
+					<div class="col-md-6">
 
-                                <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                                </p>
+						<h2 class="title-style-2">Educação infantil <span class="title-under"></span></h2>
 
-                            </div>
-                            
-                        </div>
+						<p>
+							 O Programa de Educação Infantil atende a crianças de 1 a 4 anos e tem por objetivo promover o seu desenvolvimento integral, considerando os fatores cognitivos, sociais, motores, culturais e de aprendizagem, em um ambiente educacional estimulante e acolhedor, preparado para atender a todas as suas necessidades.
 
-                    </div>
+						</p>
 
-                    <div class="col-md-4">
+						<p>
+							Conta com 11 salas ambientes, uma oficina de informática, enfermaria, área de lazer e recreação devidamente equipadas, uma quadra poliesportiva, amplo refeitório, uma brinquedoteca, biblioteca e uma equipe de trabalho altamente técnica e qualificada, incluindo a supervisão de assistentes sociais, terapeutas ocupacionais, fonoaudiólogas e pedagogos especialistas em inclusão. 
+						</p>
 
-                        <div class="footer-col">
+						<p>
+							O programa tem como proposta pedagógica transformar potencialidades em competências, capacidades e habilidades, desenvolvendo as competências básicas: aprender a ser, aprender a conviver, aprender a conhecer e a fazer. Oferece às crianças, além das atividades do referencial curricular: inclusão digital, iniciação musical, aulas de artes, culinária, prática em jogos de mesa e de quadra. 
+						</p>
 
-                            <h4 class="footer-title">LAST TWEETS <span class="title-under"></span></h4>
+						
+					</div>
 
-                            <div class="footer-content">
-                                <ul class="tweets list-unstyled">
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                </ul>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-md-4">
-
-                        <div class="footer-col">
-
-                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
-
-                            <div class="footer-content">
-
-                                <div class="footer-form" >
-                                    
-                                    <form action="php/mail.php" class="ajax-form">
-
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                        </div>
-
-                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-                                        </div>
-
-                                        <div class="form-group alerts">
-                        
-                                            <div class="alert alert-success" role="alert">
-                                              
-                                            </div>
-
-                                            <div class="alert alert-danger" role="alert">
-                                              
-                                            </div>
-                                            
-                                        </div>
-
-                                         <div class="form-group">
-                                            <button type="submit" class="btn btn-submit pull-right">Send message</button>
-                                        </div>
-                                        
-                                    </form>
-
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                    <div class="clearfix"></div>
+				</div> <!-- /.row -->
 
 
 
-                </div>
-                
-                
-            </div>
+			</div> 
+	</div>
 
-            
-        </div>
-
-        <div class="footer-bottom">
-
-            <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
-            </div>
-        </div>
-        
-    </footer>
+ <?php include 'footer.php' ?>
 
 
 
-
-       
-        
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
-
-        <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
-
-        <!-- PrettyPhoto javascript file -->
-        <script src="assets/js/jquery.prettyPhoto.js"></script>
-
-        <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
-</html>

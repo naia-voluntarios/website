@@ -3,9 +3,9 @@
 /* =====================================================
  * change this to the email you want the form to send to
  * ===================================================== */
-$email_to = "victorss.42@hotmail.com"; 
-$email_from = "teste@teste.com"; // must be different than $email_from 
-$email_subject = "teste";
+$email_to = "produtos@naia.org.br"; 
+$email_from = "victorss.42@hotmail.com"; // must be different than $email_from 
+$email_subject = "TESTE";
 
 if(isset($_POST['email']))
 {
@@ -21,7 +21,7 @@ if(isset($_POST['email']))
         !isset($_POST['email']) ||
         !isset($_POST['message']))
     {
-        return_error('Please fill in all required fields.');
+        return_error('Por favor preencha todos os campos solicitados.');
     }
 
     // form field values
@@ -54,7 +54,7 @@ if(isset($_POST['email']))
     }
 
     // prepare email message
-    $email_message = "Form details below.\n\n";
+    $email_message = "Detalhes do formulário abaixo.\n\n";
 
     function clean_string($string)
     {
